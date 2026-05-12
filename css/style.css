@@ -24,8 +24,3 @@
     box-sizing:border-box;
     
 }
-h1{
-    font-family:"Montserrat";
-    font-weight:var(--title-weight);
-    color:var(--buttom-primary);
-}
