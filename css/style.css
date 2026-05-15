@@ -1,26 +1,2 @@
-@font-face{
-    font-family:"Montserrat";
-    src: url("../fonts/montserrat/montserrat-regular.ttf");
-    font-style:normal;
-    font-display:swap;
-}
-
-:root{
-    --cor-fundo:#ffffff;
-    --cor-cinza:#8C8C8C;
-    --cor-preto:#000000;
-    --buttom-primary:#8F0101;
-    --buttom-secondary:#B81515;
-    --text-primary-cor:#222222;
-    --text-secondary-cor:#ffffff;
-    --title-weight: 700;
-    --text-weight: 400;
-    --menu-text-weight: 500;
-}
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    
-}
+@import url("./global.css");
+@import url("./header.css");
