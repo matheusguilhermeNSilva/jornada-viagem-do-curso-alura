@@ -1,12 +1,19 @@
-header{
-    width:100%;
-    height:138px;
-    background-color: var(--cor-preto)
+header {
+  background-color: var(--cor-preto);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 38px 48px;
 }
-.link_logo{
-    display:inline-block;
-    width: 68px;
-    height: 64px;
-    margin:37px 0 0 48px;
-
+.navgacao {
+  margin-top: 24px;
+}
+.link_logo {
+  display: inline-block;
+  width: 68px;
+  height: 64px;
+}
+nav {
+  display: none;
 }
