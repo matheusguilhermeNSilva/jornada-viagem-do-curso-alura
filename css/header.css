@@ -5,6 +5,7 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   padding: 38px 48px;
+  position: relative;
 }
 .navgacao {
   margin-top: 24px;
@@ -19,4 +20,21 @@ nav {
 }
 input[type="checkbox"]:checked ~ nav {
   display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--cor-preto);
+}
+.list_link li {
+  margin: 16px;
+}
+.list_link {
+  list-style: none;
+  font-family: "montserrat", sans-serif;
+}
+.list_link li a {
+  color: var(--text-secondary-cor);
+  text-decoration: none;
+  font-weight: var(--menu-text-weight);
 }
