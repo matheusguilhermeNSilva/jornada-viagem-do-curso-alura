@@ -37,4 +37,24 @@ input[type="checkbox"]:checked ~ nav {
   color: var(--text-secondary-cor);
   text-decoration: none;
   font-weight: var(--menu-text-weight);
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .navgacao {
+    margin-top: 0;
+  }
+  .navgacao label {
+    display: none;
+  }
+  .navgacao nav {
+    display: block;
+  }
+  .list_link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 467px;
+    margin: 0;
+  }
 }
