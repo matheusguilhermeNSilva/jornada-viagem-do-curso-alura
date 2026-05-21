@@ -31,7 +31,7 @@ input[type="checkbox"]:checked ~ nav {
 }
 .list_link {
   list-style: none;
-  font-family: "montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .list_link li a {
   color: var(--text-secondary-cor);
