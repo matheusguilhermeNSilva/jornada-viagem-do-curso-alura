@@ -60,7 +60,7 @@ input[type="checkbox"]:checked ~ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 467px;
+    width: 500px;
     margin: 0;
   }
   .img_desktop {
