@@ -53,6 +53,11 @@ body {
   border-radius: 16px;
   line-height: 64px;
 }
+h4 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  color: var(--text-primary-cor);
+}
 
 @media screen and (min-width: 768px) {
   .section-title h2 {
