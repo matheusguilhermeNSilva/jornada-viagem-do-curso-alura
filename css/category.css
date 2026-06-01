@@ -1,3 +1,6 @@
+.cartegory {
+  margin-bottom: 88px;
+}
 .cartegory .section-title {
   width: 312px;
   margin: 0 auto;
@@ -47,6 +50,9 @@
   }
 }
 @media screen and (min-width: 1440px) {
+  .cartegory {
+    margin-bottom: 88px;
+  }
   .cartegory-cards a.card {
     width: 280px;
   }
