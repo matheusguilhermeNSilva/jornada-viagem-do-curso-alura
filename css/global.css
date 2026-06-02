@@ -53,6 +53,7 @@ body {
   font-weight: var(--text-weight);
   border-radius: 16px;
   line-height: 64px;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
