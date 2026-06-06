@@ -55,14 +55,32 @@ body {
   line-height: 64px;
   text-align: center;
 }
-
+section.hero {
+  width: 100%;
+  margin: 0;
+}
+section {
+  width: 312px;
+  margin: 0 auto 88px;
+}
 @media screen and (min-width: 768px) {
   .section-title h2 {
     font-size: 32px;
   }
 }
+section {
+  width: 648px;
+}
 @media screen and (min-width: 1024px) {
   .button:hover {
     background-color: var(--buttom-primary);
+  }
+  section {
+    width: 900px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  section {
+    width: 1200px;
   }
 }
