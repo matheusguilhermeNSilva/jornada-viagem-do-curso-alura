@@ -67,10 +67,11 @@ section {
   .section-title h2 {
     font-size: 32px;
   }
+  section {
+    width: 648px;
+  }
 }
-section {
-  width: 648px;
-}
+
 @media screen and (min-width: 1024px) {
   .button:hover {
     background-color: var(--buttom-primary);
