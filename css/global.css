@@ -63,9 +63,16 @@ section {
   width: 312px;
   margin: 0 auto 88px;
 }
+section .title {
+  width: 280px;
+  margin: 0 auto;
+}
 @media screen and (min-width: 768px) {
   .section-title h2 {
     font-size: 32px;
+  }
+  section .title {
+    width: 100%;
   }
   section {
     width: 648px;

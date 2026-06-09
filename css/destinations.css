@@ -10,6 +10,9 @@
   padding: 0;
   margin-bottom: 24px;
 }
+.destinations-item footer {
+  margin-bottom: 24px;
+}
 .tokyo {
   background-image: url("../img/tokyo-mobile.jpg");
   background-size: cover;
