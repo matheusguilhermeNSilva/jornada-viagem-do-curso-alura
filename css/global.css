@@ -78,6 +78,18 @@ section .title {
     width: 648px;
   }
 }
+.title-container {
+  margin: 24px 0;
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  color: var(--text-primary-cor);
+}
+.text-container {
+  font-size: 20px;
+  color: var(--cor-preto);
+  line-height: 32px;
+  letter-spacing: 0;
+}
 
 @media screen and (min-width: 1024px) {
   .button:hover {

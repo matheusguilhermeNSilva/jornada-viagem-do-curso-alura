@@ -23,11 +23,6 @@
   text-decoration: none;
   color: var(--text-primary-color);
 }
-.cartegory-cards .card h3 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
-}
-
 .cartegory-cards .card.single-line {
   padding-top: 50px;
 }
