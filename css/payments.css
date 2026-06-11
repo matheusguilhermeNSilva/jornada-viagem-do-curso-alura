@@ -1,0 +1,6 @@
+.img .bag {
+  background-image: url("../img/bag.png");
+  background-size: cover;
+  width: 144px;
+  height: 254px;
+}
