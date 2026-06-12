@@ -1,6 +1,25 @@
-.img .bag {
+.payments .img-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+}
+.payments.img-container .img.bag {
   background-image: url("../img/bag.png");
+  background-repeat: no-repeat;
   background-size: cover;
-  width: 144px;
-  height: 254px;
+}
+.payments.img-container .img.passaport {
+  background-image: url("../img/passaport.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.payments.img-container .img.people {
+  background-image: url("../img/people.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.payments.img-container .img.colspan-2 {
+  grid-column: span 2;
 }
