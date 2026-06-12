@@ -5,20 +5,23 @@
   height: 460px;
   margin-top: 24px;
 }
-.img {
-  border: 2px solid red;
-}
 .payments .img-container .img.bag {
-  background-image: url(../img/bag.png) no-repeat;
+  background-image: url("../img/bag.png");
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .payments .img-container .img.passaport {
-  background-image: url(../img/passaport.png) no-repeat;
+  background-image: url("../img/passaport.png");
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .payments .img-container .img.people {
-  background-image: url(../img/people.png) no-repeat;
+  background-image: url("../img/people.png");
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .payments .img-container .img.colspan-2 {
   grid-column: span 2;
