@@ -1,0 +1,57 @@
+.payments .img-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.payments .content-container .img-container .img.bag {
+  background-image: url("../img/bag.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.payments .content-container .img-container .img.passaport {
+  background-image: url("../img/passaport.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.payments .content-container .img-container .img.people {
+  background-image: url("../img/people.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.payments .content-container .img-container .img.colspan-2 {
+  grid-column: span 2;
+}
+@media screen and (min-width: 768px) {
+  .payments .content-container .img-container .img.bag {
+    background-image: url("../img/bag-para-tablet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .img-container .img.passaport {
+    background-image: url("../img/passaport-para-tablet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .img-container .img.people {
+    background-image: url("../img/pessoas-para-tablet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 23px;
+  }
+  .payments .content-container .text-container {
+    width: 790px;
+  }
+  .payments .content-container .text-container {
+    width: 384px;
+  }
+}

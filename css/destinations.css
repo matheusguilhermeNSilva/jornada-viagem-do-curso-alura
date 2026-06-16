@@ -27,12 +27,7 @@
   width: 312px;
   height: 360px;
 }
-.destinations-item header h4 {
-  margin: 24px 0;
-  font-size: 28px;
-  font-weight: var(--title-weight);
-  color: var(--text-primary-cor);
-}
+
 .destinations-item.button {
   width: 100%;
 }
