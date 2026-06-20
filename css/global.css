@@ -55,7 +55,8 @@ body {
   line-height: 64px;
   text-align: center;
 }
-section.hero {
+section.hero,
+section.bottom-hero {
   width: 100%;
   margin: 0;
 }
