@@ -1,61 +1,69 @@
 .main-footer {
   background-color: var(--cor-preto);
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
+  padding: 32px 34px;
+  box-sizing: border-box;
 }
-.hero-bottom {
-  background-image: url("../img/rodapefooter.png");
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-}
-.footer {
-  margin-top: 32px;
+.main-footer .footer {
   text-align: center;
 }
-.footer .logo-footer {
+.main-footer .footer .logo-footer {
   width: 161.84px;
   height: 40px;
+  margin-bottom: 16px;
 }
 
-.main-footer .footer h2 {
-  color: var(--text-secondary-cor);
-  font-size: 16px;
-  line-height: 28px;
-  text-align: center;
-  margin-top: 16px;
-  margin-bottom: 8px;
-}
-.main-footer .footer-social p {
+.main-footer p {
   color: var(--text-secondary-cor);
   font-size: 16px;
   line-height: 28px;
   text-align: center;
   margin-bottom: 32px;
 }
+.main-footer .footer-social {
+  text-align: center;
+}
 .main-footer .footer-social ul {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
   list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 .main-footer .footer-social ul li a img {
   width: 32px;
   height: 32px;
 }
 @media screen and (min-width: 768px) {
-  .main-footer .footer h2 {
+  .main-footer {
+    padding: 32px 60px;
+  }
+  .main-footer p {
     font-size: 20px;
     line-height: 32px;
   }
+  .main-footer .footer-social {
+    margin-top: 32px;
+  }
 }
 @media screen and (min-width: 1440px) {
-  .hero-bottom {
-    background-image: url("../img/rodape-dekstop.png");
-  }
   .main-footer {
     flex-direction: row;
-    justify-content: space-around;
+    padding: 52px 120px;
+    justify-content: space-between;
+  }
+  .main-footer .footer {
+    text-align: left;
+  }
+  .main-footer .footer p {
+    text-align: left;
+  }
+  .main-footer .footer-social {
+    width: 165px;
+  }
+  .main-footer .footer-social p {
+    font-size: 16px;
   }
 }
