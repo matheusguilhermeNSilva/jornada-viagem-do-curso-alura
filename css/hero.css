@@ -5,6 +5,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.hero-bottom {
+  background-image: url("../img/rodapefooter.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
 .hero h2 {
   padding: 88px 24px;
   margin: 0px;
@@ -30,6 +36,12 @@
   .hero-img {
     height: 620px;
     background-image: url(../img/hero__computador.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .hero-bottom {
+    height: 600px;
+    background-image: url("../img/rodape-dekstop.png");
     background-repeat: no-repeat;
     background-position: center;
   }
