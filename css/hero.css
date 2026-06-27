@@ -5,6 +5,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.destino-hero {
+  background-image: url("../img/Conheça-Japão.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 460px;
+}
 .hero-bottom {
   background-image: url("../img/rodapefooter.png");
   background-size: cover;
