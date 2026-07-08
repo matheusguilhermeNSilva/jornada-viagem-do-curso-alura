@@ -26,6 +26,13 @@
   color: var(--text-primary-cor);
   line-height: 1.5;
 }
+/* estilo para pagina pacotes de viagem */
+.travel-packagens .hero-img {
+  background-image: url(../img/img-p-pacotes-viagem/Conheça-Japão.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
